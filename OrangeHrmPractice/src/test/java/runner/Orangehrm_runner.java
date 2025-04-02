@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 	@CucumberOptions(
 		    plugin = {
 		        "pretty",
-//		        "json:target/cucumber-reports/Cucumber.json",
+		        "json:target/cucumber-reports/Cucumber.json",
 		        "html:target/cucumber-reports/Cucumber.html"
 		    },
 		    features = "src/test/resources/orange/features/OrangeLogin.feature",
